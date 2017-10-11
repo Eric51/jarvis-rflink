@@ -16,6 +16,12 @@ Module largement inspiré du module jarvis-chacon
 
 de Author: Lusitanos67
 
+## Fonctionnement 
+il faut voir le site http://www.rflink.nl pour se fabriquer la RF-Link. 
+Cad programmer l'arduino mega, grace à leur programme. 
+Ensuite récupérer les trames des télécommandes qui gère les différentes prises en 433MHZ (ex: 20;1;TriState;ID=0000aa;SWITCH=0;CMD=ON;) Dans le config.sh, on place la trame et la commande vocale correspondante. 
+La variable (jv_pg_rflink_portserie="ttyACM0" ) du config.sh correspond au port serie sur leque l'arduino mega est branché au raspberry. 
+
 ## Usage
 Eric: allumer prise deux
 

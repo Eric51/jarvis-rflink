@@ -25,7 +25,7 @@ Ensuite récupérer les trames des télécommandes qui gère les différentes pr
 
 Dans le config.sh, on place la trame et la commande vocale correspondante. 
 
-La variable (jv_pg_rflink_portserie="ttyACM0" ) du config.sh correspond au port serie sur leque l'arduino mega est branché au raspberry. 
+La variable (jv_pg_rflink_portserie="ttyACM0" ) du config.sh correspond au port serie sur lequel l'arduino mega est branché au raspberry. 
 
 ## Usage
 Eric: allumer prise deux
